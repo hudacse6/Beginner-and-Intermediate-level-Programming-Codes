@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int ar[]={2,4,4,9,7,5,6,1} ;
+    sort(ar,ar+7);
+    for( auto &i: ar)
+    {
+        cout<<i;
+    }
+}

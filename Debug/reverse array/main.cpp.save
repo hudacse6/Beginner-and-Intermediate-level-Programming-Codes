@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+	int ara[3]={1,2,3};
+	int temp,i=0,j=0;
+	for( i=0, j=3; i<3 ; i++,j-- )
+	{
+		temp=ara[j];
+		ara[j]=ara[i];
+		ara[i]=temp;
+	}
+
+	for( i=0 ; i<3 ; i++ )
+	{
+		printf("%d\n",ara[i]);
+	}
+
+	return 0;
+}

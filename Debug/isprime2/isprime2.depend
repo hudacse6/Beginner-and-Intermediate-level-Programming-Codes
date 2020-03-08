@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507671474 source:e:\my codes\debug\isprime2\main.cpp
+	<iostream>
+	<math.h>
+

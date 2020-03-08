@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int grade[6],sum=0;
+    float avg;
+    for(int i=0 ; i<6; i++)
+    {
+    	printf("Enter grade[%d]=",i+1);
+    	scanf("%d",&grade[i]);
+    	sum=sum+grade[i];
+    }
+//   cout<<sum;
+//   avg=(float)sum/2;
+//   cout<<"\n";
+//   cout<<avg;
+
+
+}

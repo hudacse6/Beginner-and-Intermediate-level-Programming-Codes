@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int gcd; 
+	int y,x;
+	while(y!=0)
+	{
+		gcd=x%y;
+		x=y;
+		y=gcd;
+	}
+	
+}

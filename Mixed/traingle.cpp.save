@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+#include <stdio.h>
+#include <string.h>
+#include<stdlib.h>
+
+using namespace std;
+char *reverse ( char *str );
+int main()
+{
+    char str1[10] = "awesoMe";
+    char str2[10] = "awesome";
+    char *str3 = malloc ( 20 * sizeof ( char ) );
+    str3 = reverse ( "Pabon" );
+//printf("%s",*str3);
+    puts ( str3 );
+    return 0;
+}
+char *reverse ( char *str )
+{
+    int i, j;
+    char *str2 = malloc ( 20 * sizeof ( char ) );
+    for ( i = strlen ( str ), j = 0; i >= 0; i--, j++ )
+    {
+        str2[j] = str[i];
+    }
+// for(i=strlen(str),j=0;i>=0;i--,j++){
+// printf("%c",str2[j]);
+// }
+    return str2;
+}

@@ -1,0 +1,127 @@
+ #include <stdio.h>   
+ #include <math.h>   
+ const int size = 40;   
+ int ara[size];   
+  
+ void sieve()   
+ {   
+     int i, j, root;   
+     for(i = 2; i < size; i++) {   
+         ara[i] = 1;   
+     }   
+     root = sqrt(size);   
+     print_ara();   
+     for(i = 2; i <= root; i++) {      
+         if(ara[i] == 1) {   
+             for(j = 2; i * j <= size; j++) {   
+                 ara[i * j] = 0;          
+             }    
+         }   
+     }   
+ }   
+
+ int is_prime(int n)   
+ {   
+     int i;   
+     if(n < 2) {   
+         return 0;   
+     }   
+     return ara[n];   
+ }   
+
+ int main()   
+ {    
+     int n, m;   
+     sieve();   
+     while(1) {   
+         printf("Please enter a number (enter 0 to exit): ");   
+         scanf("%d", &n);   
+         if(n == 0) {   
+             break;   
+         }   
+         if(n >= size) {   
+             printf("The number should be less than %d\n", size);   
+             continue;   
+         }   
+         if(1 == is_prime(n)) {   
+             printf("%d is a prime number.\n", n);   
+         }   
+         else {   
+             printf("%d is not a prime number.\n", n);   
+         }   
+     }      
+     return 0;   
+ }  
+ 
+ 
+//#include<bits/stdc++.h>
+//using namespace std;
+//
+//void seive (int p[] )
+//{
+//    int i, j,k;
+//    memset ( p, -1, sizeof(p) ) ;
+//
+//    for ( i = 2 ; i <= sizeof(p)/4; i++ )
+//    {
+//        if ( p[i]  == -1 )
+//        {
+//            for ( j = 2 ; i * j <=sizeof(p)/4 ; j++ )
+//            {
+//                p[i * j] = 0;
+//
+//            }
+//        }
+//    }
+//    for (  k = 0 ; k <= sizeof(p)/4; k++ )
+//        {
+//            if ( p[i*j] != 0  )
+//            {
+//                cout << p << endl;
+//            }
+//        }
+//}
+//
+//int main()
+//{
+//    int n[100];
+//    seive(n);
+//    return 0;
+//}
+
+
+
+
+
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main()
+//{
+//    int arr[100001];
+//
+//    for(int l = 0 ; l<= sizeof(arr)/4 ; l++)
+//    {
+//        arr[l]=-1;
+//    }
+//
+//
+//        for(int i = 2 ; i<= sizeof(arr)/4 ; i++)
+//        {
+//            if( arr[i]==-1 )
+//            {
+//                for( int j= 2 ; i*j<=sizeof(arr)/4 ; j++ )
+//                {
+//                    arr[i*j]=0;
+//                }
+//            }
+//        }
+//
+//        for( int p= 0 ; p<= sizeof(arr)/4 ; p++ )
+//        {
+//            if(arr[p]==-1)
+//                printf(" %d\n ",p );
+//        }
+//
+//
+//    return 0;
+//}

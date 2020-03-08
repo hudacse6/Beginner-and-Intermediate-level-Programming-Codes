@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	= /*THAT MEANS DAN DIK ER VALUE TA BAM DIK ER VARIABLE
+		 ER JOONOO NIRDHARON HOBE */
+
+    int a=5,b=10,temp;
+	printf("Main values IS: A:%d B:%d\n",a,b);
+
+	cout<<"------------------------";
+    temp=a; /// here temp=5
+	cout<<"\n"<<"Temp: "<<temp<<"\n";
+	cout<<"\n"<<"A: "<<a<<"\n";
+
+	cout<<"---------";
+    a=b; /// here a=10
+    cout<<"\n"<<"A: "<<a<<"\n";
+    cout<<"\n"<<"B: "<<b<<"\n";
+
+	cout<<"---------";
+	b=temp; /// here b=5
+	cout<<"\n"<<"B:    "<<b<<"\n";
+    cout<<"\n"<<"Temp: "<<temp<<"\n";
+
+	cout<<"----------\n";
+	cout<<"A:"<<a<<"\t"<<"B:"<<b;
+
+}

@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
+
+int main(void)
+{
+   char c=125;
+   c=c
+}
+

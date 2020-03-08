@@ -1,0 +1,36 @@
+//#include<bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    int tcase;
+    int n[1000] ;
+    cin >> tcase;
+    int m = 1;
+    while ( tcase-- )
+    {
+        for ( int i = 0 ; i < 3   ; i++ )
+        {
+            cin >> n[i];
+        }
+        for ( int j = 0 ; j < 3 ; j++ )
+        {
+            for ( int k = j + 1; k < 3 ; k++ )
+            {
+                if ( n[j] > n[k] )
+                {
+                    swap ( n[j], n[k] );
+                }
+            }
+        }
+        printf ( "Case %d: ", m )  ;
+        for ( int p = 0 ; p < 3 ; p++ )
+        {
+            printf ( "%d ", n[p] );
+        }
+        cout << endl;
+        m++;
+    }
+    return 0 ;
+}

@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int fact=0;
+    cin>>fact;
+    for (int i=0  ; i<fact ;i++)
+    {
+        fact=fact*i;
+    }
+    cout<<fact;
+    return 0;
+}

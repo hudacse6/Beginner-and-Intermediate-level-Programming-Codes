@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char ch[101];
+    gets(ch);
+    printf("%c",sizeof(ch));
+    return 0;
+}
+

@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int array[16]={100,29,54,78,59,45,45,45,90,90,99,78,78,46,87,87}
+    int count=0;
+    for(int marks=0 ; marks<=100 ; marks++)
+	{
+		for(int i=0 ; i<)
+	}
+	printf("%d",count);
+	return 0;
+}

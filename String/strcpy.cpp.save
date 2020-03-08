@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	char ch[100]="hello hadisur rahman";
+	char ch1[10];
+	strcpy(ch,ch1);
+	puts(ch1);
+
+    return 0;
+}

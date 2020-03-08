@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int str_lenght( char str[])
+{
+      int i ;
+      for( i=0 ; str[i] !='\0' ; i++)
+      {
+          i++;
+      }
+      return i;
+}
+
+int main()
+{
+    char s[101];
+    int len;
+    while(gets(s))
+    {
+       len=str_lenght(s);
+       cout<<len;
+    }
+
+    return 0;
+}

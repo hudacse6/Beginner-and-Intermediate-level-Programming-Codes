@@ -1,0 +1,6 @@
+12001;salt;20;good;1022;
+12002;sugar;35;excellent;1104;
+12003;Milk;42;excellent;500;
+12004;Rice;23;good;2523;
+
+12005;Atta;35;excellent;100023;

@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+//#include<iostream>
+using namespace std;
+int main()
+{
+    int tcase, n[101], i=0;
+    cin >> tcase;
+    while ( tcase-- )
+    {
+        scanf ( "%d", &n[i] );
+        int x = n[i];
+        if ( x % 2 == 0 )
+            cout << "even" << endl;
+        else
+            cout << "odd" << endl;
+        i++;
+        x = 0;
+    }
+    return 0;
+}
+

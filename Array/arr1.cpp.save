@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    static int niton[5]={1,2,3,4,5};
+    for(int i=1 ; i<=5 ; i++)
+        printf("Niton[%d] = %d\n", i , niton[i-1]);
+}

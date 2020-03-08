@@ -1,0 +1,26 @@
+#include<windows.h>
+#include<GL/glut.h>
+
+void display()
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    glc
+}
+
+
+
+
+
+
+
+
+int main( int argc , char** argv)
+{
+    glutInit(&argc , argv);
+    glutCreateWindow("test shape :");
+    glutInitWindowSize(720,480);
+    glutInitWindowPosition(50,50);
+    glutDisplayFunc(display);
+    glutMainLoop();
+    return 0;
+}

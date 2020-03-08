@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    /// A=65 , B=66
+
+    int test_score = 100;
+    int current_grade = 'B';
+    if ( test_score >= 90 )
+
+        if ( current_grade == 'A' )
+            printf ( "\n\a Congrates u got A" )   ;
+
+    else
+        printf("\n\a Sorry! You should work hard");
+
+    return 0;
+}

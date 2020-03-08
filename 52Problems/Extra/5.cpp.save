@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#include<stdio.h>
+int main()
+{
+    int Tcase,n;
+    scanf("%d",&Tcase);
+    while(Tcase--) // for input case
+    {
+        scanf("%d",&Tcase) ;
+        for(int i= 0 ; i < n ; i++) // for output
+        {
+            for(int j = 0 ; j < n ; j++ )
+            {
+                printf("*")
+            }
+            cout<<"\n";
+        }
+    }
+    return 0;
+}

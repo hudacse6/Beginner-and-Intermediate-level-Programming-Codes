@@ -1,0 +1,55 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
+int main()
+{
+    int Tcase;
+    scanf("%d",&Tcase);
+    int t=1;
+    while(t<=Tcase)
+    {
+        long long n,e;
+        scanf("%lld%lld",&n,&e);
+        long long a[n+1][n+1];
+        for(int i=1; i<=n; i++)
+            for(int j=1; j<=n; j++)
+                a[i][j]=0;
+        for(int i=0; i<e; i++)
+        {
+            long long u,v,w;
+            scanf("%lld%lld%lld",&u,&v,&w);
+            a[u][v]=w;
+            a[v][u]=w;
+        }
+        long long q;
+        scanf("%lld",&q);
+        for(int i=0; i<q; i++)
+        {
+            long long c;
+            bool visited[n+1]
+            for(int x=1; x<=n; x++)
+                visited[x]=0;
+            scanf("%lld",&c);
+
+            stack<long long >mystack;
+            mystack.push(1);
+            visited[1]=1;
+            while(!mystack.empty())
+            {
+                int temp=mystack.top();
+                mystack.pop();
+                for(int edge=1; edge<=n; edge++)
+                    if(visited[edge])
+                    }
+
+
+
+        }
+    }
+
+    return 0;
+}
+
+

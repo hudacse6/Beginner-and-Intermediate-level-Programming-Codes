@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char ch=" hadisur rahman , i am a student of cse  in varendara univercity";
+    st
+    return 0;
+}

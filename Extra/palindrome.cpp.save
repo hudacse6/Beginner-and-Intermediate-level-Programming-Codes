@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    //int a, no, b, temp = 0;
+    int n, sum = 0, rev;
+    cin >> n;
+    int m, i = 0;
+    rev = n;
+    while ( n != 0 )
+    {
+        i = n % 10;
+        m = n / 10;
+        n = m;
+        cout << i;
+    }
+    cout << "\n";
+    sum=rev+i;
+    cout<<sum;
+    
+    for(int j= 0 ; )
+
+//    b = no;
+//    while ( no > 0 )
+//    {
+//        a = no % 10;
+//        no = no / 10;
+//        temp = temp * 10 + a;
+//    }
+//    if ( temp == b )
+//    {
+//        cout << "Palindrome";
+//    }
+//    else
+//    {
+//        cout << "Not Palindrome";
+//    }
+//    return 0;
+}

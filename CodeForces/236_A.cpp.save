@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+     while(1)
+     {
+        char Tcase[100]; int t=1;
+        gets(Tcase);
+        int len = strlen( Tcase );
+        sort(Tcase,Tcase+len);
+        
+        int count=0,i;
+        for( i= 0 ; i<len ; i++)
+        {
+            if(Tcase[i] != Tcase[i+1])
+            {
+                count++;
+            }
+
+        }
+        if ( count % 2 == 0 )
+            cout <<"CHAT WITH HER!" << "\n"<<count<< endl;
+        else
+            cout <<"IGNORE HIM!"<< "\n"<<count<< endl ;
+
+}
+
+    return 0;
+}
+
+
+

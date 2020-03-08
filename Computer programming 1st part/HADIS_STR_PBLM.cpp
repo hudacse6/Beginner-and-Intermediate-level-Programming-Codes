@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char str[1000], ch;
+    int len;
+    len = strlen ( gets ( str ) ) ;
+    int is_word_start = 0;
+    for ( int i = 0 ; i < len ; i++ )
+    {
+        if ( str[i] >= 'a' && str[i] <= 'z' )
+        {
+            if ( is_word_start == 0 )
+            {
+                is_word_start = 1;
+                ch = 'A' + ( str[i] - 'a' );
+                printf ( "%c", ch );
+            }
+            else
+            {
+                printf ( "%c", str[i] );
+            }
+        }
+        else if ( str[i] >= 'A' && str[i] <= 'Z' || str[i] >= '0' && str[i] <= '9' )
+        {
+            if ( is_word_start == 0 )
+            {
+                is_word_start = 1;
+            }
+            printf ( "%c", str[i] );
+        }
+        else
+        {
+            if ( is_word_start == 1 )
+            {
+                is_word_start = 0;
+                printf ( "\n" );
+            }
+        }
+    }
+    printf ( "\n" );
+    return 0;
+}
+
+

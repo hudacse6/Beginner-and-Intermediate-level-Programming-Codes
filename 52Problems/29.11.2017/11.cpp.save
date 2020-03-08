@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int tcase, no;
+    long long int fact=1;
+    cin >> tcase;
+    while ( tcase-- )
+    {
+        cin >> no;
+        for ( int i = 2 ; i <= no ; i++ )
+        {
+            fact = fact * i;
+        }
+       printf("%.llf\n",fact) ;
+
+    }
+
+    return 0;
+}

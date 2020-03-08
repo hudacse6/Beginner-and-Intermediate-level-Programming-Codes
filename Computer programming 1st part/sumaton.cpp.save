@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x,y,c,d;
+   
+    c=x+y,d=x-y;
+    int result ;
+    result=(c+d) /2;
+    cout<<"X="<<result;
+
+    cout<<"\n";
+
+    result=(c-d)/2;
+    cout<<"Y="<<result;
+
+    return 0;
+
+}

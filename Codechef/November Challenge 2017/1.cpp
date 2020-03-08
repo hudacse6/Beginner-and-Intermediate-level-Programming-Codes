@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char st[10001] ;
+    int tcase, len;
+    cin >> tcase;
+    gets ( st );
+    while ( tcase-- )
+    {
+        int cnt = 0, i, j;
+        len = strlen ( gets ( st ) );
+        for ( i = 0, j = len - 1; i < len; i++, j-- )
+        {
+            if ( st[i] == 'A' )
+            {
+                for ( i = 1 ; i <=len ; i++ )
+                {
+                    if ( st[i] == '.' )
+                    {
+                        cnt++;
+                    }
+                }
+            }
+        }
+        cout << cnt << endl;
+    }
+    return 0;
+}
+

@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    freopen("s.txt" , "r " , stdin);
+    int tcase, cont = 0, i, word;
+    char st[10001];
+    cin >> tcase;
+    gets ( st ) ;
+    while ( tcase-- )
+    {
+        int len = strlen ( gets ( st ) );
+        cin >> word;
+        for ( i = 0 ; i < len ; i++ )
+        {
+            if ( st[i]==word )
+            {
+                cont++;
+            }
+//            else
+//            {
+//                printf ( "'%c' is not present\n" );
+//            }
+        }
+        printf ( "Occurrence of '%c' in '%s' = %d\n", word, st, cont );
+    }
+    return 0;
+}

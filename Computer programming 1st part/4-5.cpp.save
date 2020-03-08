@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void recursive(int count)
+{
+    if(count == 5 )
+        return ;
+    printf("i am a slow learner but learnt ");
+    recursive ( recursive +1);
+    
+}
+
+
+int main()
+{
+
+}

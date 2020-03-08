@@ -1,0 +1,18 @@
+/// http://bit.ly/1-52-problem-7
+
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    int Tcase, i, j, a;
+    char n[101];
+    int len, count = 0;
+    len = strlen ( gets ( n ) );
+    scanf ( "%d", &Tcase );
+    for ( i = 1 ; i <= Tcase ; i++ )
+    {
+        
+        for ( i = 0; i < len ; i++ )
+            return 0;
+    }

@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int tcase, n;
+    cin >> tcase;
+    while ( tcase-- )
+    {
+        cin >> n;
+        printf ( "Sum = %d\n", n % 10 + n / 10000 ) ;
+    }
+}

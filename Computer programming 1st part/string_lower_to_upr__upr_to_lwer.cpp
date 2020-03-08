@@ -1,0 +1,56 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    freopen("c.txt","r",stdin);
+    char ch[101];
+    int len = strlen ( gets ( ch ) );
+    //cout<<len;
+    for ( int j = 0 ; j < len ; j++ )
+    {
+        if ( ch[j] >= 'a' &&  ch[j] <= 'z' )
+        {
+            ch[j] = ch[j] - 32 ;
+        }
+    }
+    cout << ch;
+    return 0;
+}
+
+
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch;
+	printf("Enter a character in uppercase : ");
+	scanf("%c",&ch);
+	ch=ch+32;
+	printf("character in lowercase = %c",ch);
+
+    char ch[10];
+    int i=0;
+    gets(ch);
+    ch[i]='A'+(ch[i]-'a'); /// this mkes the words uprcase
+    ch[i]=ch[i]-32; /// this mkes the words uprcase
+    ch[i]=ch[i]+32; /// this mkes the words lowecase
+    puts(ch)  ;
+
+}
+*/
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ch;
+	printf("Enter a character in uppercase : ");
+	cin>>ch; // but not gets why ?
+	ch=ch+32;
+	cout<<ch;
+return 0;
+}
+*/

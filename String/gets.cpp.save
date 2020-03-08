@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char ch[100];
+    cout<<"enter ur name:";
+    gets(ch);
+    
+	return 0;
+}

@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int LB=0 , U=5, k;
+    int LA[100];
+    k=LB;
+    while( k <= UB  )
+    {
+        cin>>LA[k];
+        cout<<LA[k];
+        k=k+1;
+    }
+    return 0;
+}
+

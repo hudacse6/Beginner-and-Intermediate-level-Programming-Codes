@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int>myv(10);
+    
+    
+    for(int )
+return 0;
+}

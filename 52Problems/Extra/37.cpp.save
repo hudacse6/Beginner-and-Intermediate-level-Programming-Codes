@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    int tcase;
+    cin >> tcase;
+    while ( tcase-- )
+    {
+        cin >> n;
+        int m, i = 0, sum = 0;
+        num2 = n;
+        while ( n != 0 )
+        {
+            i = n % 10;
+            m = n / 10;
+            n = m;
+        }
+        sum = num2 + i;
+        cout << sum << endl;
+    }
+    return 0;
+}

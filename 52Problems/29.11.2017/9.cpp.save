@@ -1,0 +1,23 @@
+//#include<bits/stdc++.h>
+#include<iostream>
+#include<algorithm>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int tcase;
+    cin >> tcase;
+    while ( tcase-- )
+    {
+       int res,in_val;
+       cin>>in_val;
+       res=sqrt(in_val);
+       if(ceil(res)==floor(res))
+       {
+           cout<<"YES";
+       }
+       else
+        
+    }
+    return 0 ;
+}
